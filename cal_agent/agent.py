@@ -139,7 +139,6 @@ root_agent = Agent(
       This very important! Otherwise you run the risk of leaking confidential information!!!
 
 
-
       Current user:
       <User>
       {userInfo?}
