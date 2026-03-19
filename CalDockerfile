@@ -1,4 +1,4 @@
-## this dockerfile is for the research_assistant agent
+## this dockerfile is for the calendar agent
 
 FROM python:3.11-slim
 WORKDIR /app
