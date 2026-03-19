@@ -33,7 +33,7 @@ COPY --chown=myuser:myuser "cal_agent/" "/app/agents/cal_agent/"
 # No requirements.txt.
 # Install Agent Deps - End
 
-EXPOSE 8000
+EXPOSE 8080
 
-CMD adk web --port=8000 --host=0.0.0.0 --session_service_uri=memory:// --artifact_service_uri=memory://     "/app/agents"
+CMD adk web --port=8080 --host=0.0.0.0 --session_service_uri=memory:// --artifact_service_uri=memory://     "/app/agents"
 
